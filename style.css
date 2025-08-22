@@ -1,0 +1,249 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f0f0f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+/* Colorful project cards */
+.project-card.quickbite {
+  background: linear-gradient(135deg, #6A82FB, #3dff777b);
+  color: #fff;
+}
+
+.project-card.hirehive {
+  background: linear-gradient(135deg, #6A82FB, #FC5C7D);
+  color: #fff;
+}
+
+/* GitHub links inside project cards */
+.project-card a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hover effect for colored cards */
+.project-card.quickbite:hover,
+.project-card.hirehive:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Skills grid like projects */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+/* Skill card styles */
+.skill-card {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skill card hover effect */
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Skill icons */
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Individual colors for each skill */
+.skill-html {
+  background: linear-gradient(135deg, #f16529, #ff7f50);
+}
+.skill-css {
+  background: linear-gradient(135deg, #2965f1, #4aa1f3);
+}
+.skill-js {
+  background: linear-gradient(135deg, #f0db4f, #f7e64c);
+  color: #333;
+}
+.skill-java {
+  background: linear-gradient(135deg, #007396, #00a0d9);
+}
+.skill-python {
+  background: linear-gradient(135deg, #306998, #4b8bbe);
+}
+.skill-react {
+  background: linear-gradient(135deg, #61dafb, #21a1f1);
+  color: #333;
+}
+
+
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  background: #ff6f61;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e55547;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.section {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.colored {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #222;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.skills-grid img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* --- Contact Section Color --- */
+.contact-colored {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* light blue gradient */
+  /* OR for light pink gradient: #fbc2eb, #fcd6f7 */
+  color: #333; /* dark text for better readability */
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-colored a {
+  color: #1a73e8; /* link color */
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-colored a:hover {
+  color: #ff4081; /* hover effect */
+}
+
+/* Footer color */
+.footer-colored {
+  background: #1a1a40; /* dark blue */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}

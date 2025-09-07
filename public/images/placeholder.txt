@@ -1,0 +1,11 @@
+This folder will contain your images:
+- profile.jpg
+- html.png
+- css.png
+- js.png
+- java.png
+- python.png
+- react.png
+- Monisha_portfolio.pdf
+
+Please download these files from your GitHub repository and place them in this images folder.
